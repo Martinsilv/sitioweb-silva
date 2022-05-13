@@ -22,9 +22,10 @@ bottom: 150px;
 .logo{
     border-radius: 50px;
     margin-top: 20px;
+    padding-bottom: 20px;
 }
 
-ul  {
+ul  {margin-bottom: 0%;
     list-style: none;
 }
 ul li{
@@ -42,8 +43,13 @@ ul li a:hover{    background-color: rgba(233, 86, 33, 0.911);
 
 section{
     background-color: rgba(92, 88, 88, 0.63);
-   
-
+    
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+ 
+   /* position: relative;*/
    }
 section h2{ padding-top: 30px;
     padding-bottom: 50px;
@@ -60,7 +66,7 @@ section h3{
     font-size: 30px;
     color: antiquewhite;
 }
-.canaletas{
+/*.canaletas{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px ;
@@ -82,15 +88,14 @@ margin-left: 30px; }
 .canaletas__3{
      max-width: 500px;
     max-height: 400px; 
-    margin-bottom: 50px;}
+    margin-bottom: 50px;}*/
 
-.herreria{padding-left: 50px;
+
+/*.herreria{padding-left: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 10px;
-
-
-} 
+} */
 .herreriah3{
     padding-left:20px; 
     padding-top: 20px;     
@@ -100,7 +105,7 @@ margin-left: 30px; }
     color: antiquewhite;
 }
 
-.herreria__1{
+/*.herreria__1{
 
     width: 400px;
     height: 400px; }
@@ -114,7 +119,7 @@ height: 400px;
 .herreria__3{
     grid-column: 3/3;
     width: 400px;
-    height: 400px; }
+    height: 400px; }*/
 
   
 .techosh3{ padding-left:20px; 
@@ -124,23 +129,38 @@ height: 400px;
     font-size: 30px;
     color: antiquewhite;}
    
-    .techos{ 
+   /* .techos{ 
         padding-left: 200px;
         padding-bottom: 50px;
     display: grid;
     grid-template-columns:1fr 1fr;
-    
-    
     }
-
-
 .techos__1{  
     width: 400px;
     height: 400px; }
 
     .techos__2{
         width: 400px;
-        height: 400px; }
+        height: 400px; }*/
+
+
+        .carrousel1{margin-bottom: 100px;
+            width: 500px;
+            height: 500px;
+            align-self: center;
+            }
+
+            .carrousel2{margin-bottom: 100px;
+                width: 500px;
+                height: 500px;
+                align-self: center;
+                }
+                .carrousel3{margin-bottom: 100px;
+                    width: 500px;
+                    height: 500px;
+                    align-self: center;
+                    justify-content: space-around;
+                }
 
 
  footer { background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1449' height='250' preserveAspectRatio='none' viewBox='0 0 1449 250'%3e%3cg mask='url(%26quot%3b%23SvgjsMask2007%26quot%3b)' fill='none'%3e%3crect width='1500' height='300' x='0' y='0' fill='url(%23SvgjsLinearGradient2008)'%3e%3c/rect%3e%3cpath d='M4 250L254 0L611 0L361 250z' fill='url(%23SvgjsLinearGradient2009)'%3e%3c/path%3e%3cpath d='M258.08500000000004 250L508.08500000000004 0L706.085 0L456.08500000000004 250z' fill='url(%23SvgjsLinearGradient2009)'%3e%3c/path%3e%3cpath d='M499.17 250L749.1700000000001 0L1035.67 0L785.6700000000001 250z' fill='url(%23SvgjsLinearGradient2009)'%3e%3c/path%3e%3cpath d='M743.255 250L993.255 0L1296.255 0L1046.255 250z' fill='url(%23SvgjsLinearGradient2009)'%3e%3c/path%3e%3cpath d='M1445 250L1195 0L1054 0L1304 250z' fill='url(%23SvgjsLinearGradient2010)'%3e%3c/path%3e%3cpath d='M1168.915 250L918.915 0L708.915 0L958.915 250z' fill='url(%23SvgjsLinearGradient2010)'%3e%3c/path%3e%3cpath d='M953.8299999999999 250L703.8299999999999 0L408.3299999999999 0L658.3299999999999 250z' fill='url(%23SvgjsLinearGradient2010)'%3e%3c/path%3e%3cpath d='M700.745 250L450.745 0L116.245 0L366.245 250z' fill='url(%23SvgjsLinearGradient2010)'%3e%3c/path%3e%3cpath d='M1278.8632491335693 250L1449 79.86324913356941L1449 250z' fill='url(%23SvgjsLinearGradient2009)'%3e%3c/path%3e%3cpath d='M0 250L170.1367508664306 250L 0 79.86324913356941z' fill='url(%23SvgjsLinearGradient2010)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask2007'%3e%3crect width='1449' height='250' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='79.31%25' y1='-119.9%25' x2='20.69%25' y2='219.9%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient2008'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(9%2c 0%2c 45%2c 1)' offset='0.94'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient2009'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient2010'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");

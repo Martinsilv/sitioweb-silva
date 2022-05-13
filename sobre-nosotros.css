@@ -23,7 +23,7 @@ bottom: 150px;
     border-radius: 50px;
     margin-top: 20px;
 }
-ul  {
+ul  {margin-bottom: 0%;
     list-style: none;
 }
 ul li{
@@ -42,21 +42,29 @@ ul li a:hover{    background-color: rgba(233, 86, 33, 0.911);
 
     .titulo{ 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-size: 50px;
+font-size:30px;
 color: antiquewhite;
-padding-left: 400px;
+padding-left: 550px;
     padding-top: 200px;
     padding-bottom: 300px;
     background-image: url(./images/moladora.jpg);
 background-position: center center;
+height: 500px;
 background-size: cover;
 background-attachment: fixed;
 } 
 
 section{ background-color: rgba(131, 124, 124, 0.76);
-   position: relative;}
+display: flex;
+flex-direction: column;
+padding-bottom: 50px;
+padding-top: 50px;
+padding-left: 40px;
+padding-right: 40px;
+}
+  /* position: relative;*/
    
-   .parrafo{padding-left: 30px;
+   /*.parrafo{padding-left: 30px;
     padding-top: 100px;
     padding-bottom: 500px;
     padding-right: 50px;
@@ -73,18 +81,22 @@ section{ background-color: rgba(131, 124, 124, 0.76);
     text-align: justify;}
 
 .parrafo__2{position: absolute;
-top: 500px;
+top: 470px;
 right: 30px;
 left: 30px;
 border-style:double;
 text-align: justify;
-}
+}*/
 
 
 .imagen1{ 
-position: absolute;
+/*position: absolute;
 left: 20%;
-bottom: 150px;
+bottom: 150px;*/
+margin-top: 70px;
+margin-bottom: 70px;
+align-self:center;
+border-style: double;
 
 
 }
@@ -171,10 +183,11 @@ text-align: justify;
 }
 
 
-.imagen1{ 
+.imagen1{ display: none; 
+  /*
 position: absolute;
 left: 10%;
-bottom: 150px;
+bottom: 150px;*/
 }
 .formulario{ 
     display: flex;
