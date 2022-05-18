@@ -51,97 +51,48 @@ section{
  
    /* position: relative;*/
    }
-section h2{ padding-top: 30px;
-    padding-bottom: 50px;
+section h2{
+  
+    background-image: url(./images/moladora.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    
+    padding-top: 100px;
+    padding-bottom: 100px;
        padding-left: 35%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
     color: antiquewhite;
 }
-section h3{
+section h3{ border-style: double;
     padding-left:45%;
     padding-bottom: 100px; 
     padding-top: 20px;
+    margin-bottom: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
-    color: antiquewhite;
-}
-/*.canaletas{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px ;
-}
-.canaletas__1{
-
-    max-width: 400px;
-max-height: 400px;
-margin-bottom: 50px;
-margin-left: 30px; }
-.canaletas__2{
-
-     max-width: 400px;
-    max-height: 400px;
-   margin-bottom: 50px;
-   margin-right: 100px;
-   margin-left:100px;
-}
-.canaletas__3{
-     max-width: 500px;
-    max-height: 400px; 
-    margin-bottom: 50px;}*/
-
-
-/*.herreria{padding-left: 50px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 10px;
-} */
-.herreriah3{
-    padding-left:20px; 
-    padding-top: 20px;     
-    padding-bottom: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
+    font-size: 45px;
     color: antiquewhite;
 }
 
-/*.herreria__1{
-
-    width: 400px;
-    height: 400px; }
-
-    .herreria__2{
-        margin-left: 50px;
-        margin-right: 50px;
-        width: 300px;
-height: 400px; 
-    }
-.herreria__3{
-    grid-column: 3/3;
-    width: 400px;
-    height: 400px; }*/
+.herreriah3{ 
 
   
-.techosh3{ padding-left:20px; 
-    padding-top: 20px;
-    padding-bottom: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
+    color: antiquewhite;
+}
+
+
+  
+.techosh3{
+  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
     color: antiquewhite;}
    
-   /* .techos{ 
-        padding-left: 200px;
-        padding-bottom: 50px;
-    display: grid;
-    grid-template-columns:1fr 1fr;
-    }
-.techos__1{  
-    width: 400px;
-    height: 400px; }
-
-    .techos__2{
-        width: 400px;
-        height: 400px; }*/
+   
 
 
         .carrousel1{margin-bottom: 100px;
