@@ -1,0 +1,82 @@
+
+section{ background-color: $color-principal;
+    position: relative;}
+    
+      .chapas__img{
+          width: 200px;
+        border-radius: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        &__p {
+          font-family:$arial;
+          
+            font-size: 20px;
+          position: absolute;
+      left: 300px; 
+      bottom: 480px;
+      
+      }
+      &__link{
+        position: absolute;
+        left: 300px;   
+         bottom: 430px;
+         text-decoration: none;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000;}
+    &__link:hover { font-size: 20px;}
+
+      }
+     
+    
+      .hierros__img{
+          width: 200px;
+        border-radius: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      
+        &__p {
+          font-family: $arial;
+            font-size: 20px;
+          position: absolute;
+      left: 300px;   
+       bottom: 270px;
+      }
+      &__link{
+          position: absolute;
+          left: 300px;   
+           bottom: 220px;
+           text-decoration: none;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: #000;
+      }
+    
+      &__link:hover { font-size: 20px;}
+      
+      }
+     
+    
+      .techos__img{
+          width: 200px;
+        border-radius: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        %__p {
+          font-family: $arial;
+            font-size: 20px;
+          position: absolute;
+      left: 300px;   
+       bottom: 120px;
+      }
+       &__link{
+          position: absolute;
+          left: 300px;   
+           bottom: 70px;
+           text-decoration: none;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: #000;
+      }
+      &__link:hover { font-size: 20px;}
+
+      }
+    

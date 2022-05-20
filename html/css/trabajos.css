@@ -53,7 +53,7 @@ section{
    }
 section h2{
   
-    background-image: url(./images/moladora.jpg);
+    background-image: url(.//img/moladora.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;

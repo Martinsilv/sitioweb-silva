@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+   padding : 0;
+box-sizing: border-box;
+}
+header{ 
+      background-image:$background-azul;
+        max-width: 1500px;
+      max-height: 600px;
+      background-position: center center;
+      position: relative;
+      margin-top: 50px;
+
+
+      & h1
+      { 
+        font-family:$arial;
+      color: antiquewhite; 
+      font-size: 70px;
+          position: absolute;
+      left: 300px;
+      bottom: 150px;
+      }
+      &{
+        border-radius: 50px;
+        margin-top: 20px;
+    }
+    }
+
+
+
+
+.buscador {
+    position: absolute;
+    left: 1000px;
+    bottom:110px;
+}
+ ul  {position: relative;
+  
+     list-style: none;
+
+     & li{
+      display: inline-block ;
+      }
+
+      & li a{
+        color: antiquewhite;
+        text-decoration: none;
+        display: block;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          padding: 10px 95px;
+     }
+
+     & li a:hover{    background-color: rgba(233, 86, 33, 0.911);
+     }
+ }
+
+  
+
+ 

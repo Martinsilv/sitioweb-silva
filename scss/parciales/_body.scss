@@ -1,0 +1,48 @@
+aside {
+    position: relative; 
+padding-top: 10%; 
+padding-bottom: 30%;
+ background-image: $fondo-rayas;
+ background-position: center center;
+ background-size: cover;
+background-attachment: fixed;
+}               
+
+   .presentacion{
+  
+    font-family:$arial;
+    color: antiquewhite;
+      font-size: 30px;
+      position: absolute;
+      left: 10%;
+      
+      padding-top: 10px;
+      padding-left: 10px;
+      background-color: rgb(11, 11, 48);
+      border-radius: 20px;
+      height: 50%;
+      width: 40%;
+   }
+   
+    .parrafo{
+      font-family:$arial;
+    color: antiquewhite;    
+  position: absolute;
+      
+  bottom: 35%;
+  left: 15%;
+ 
+  text-align:justify ;
+     
+  width: 400px;
+     
+  }
+  .search{ padding-left: 20%;}
+   .imagen-principal{
+   position: absolute;
+   left: 40%;
+     border-radius: 30px;
+      width: 500px;
+      margin-left:10%;
+      
+   }
