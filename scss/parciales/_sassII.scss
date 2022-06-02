@@ -1,0 +1,76 @@
+$estilos: (
+    width: 200px,
+    border: 100px,
+    top:10px,
+    bottom: 10px,
+);
+
+.chapas__img{
+    width: map-get($estilos,width  );
+    border-radius: map-get($estilos, border);
+    padding-top: map-get($estilos,top );
+    padding-bottom: map-get($estilos ,bottom );
+
+}
+   .hierros__img {
+    width: map-get($estilos,width  );
+    border-radius: map-get($estilos, border);
+    padding-top: map-get($estilos,top );
+    padding-bottom: map-get($estilos ,bottom );
+
+   }
+
+   .techos__img{ 
+    width: map-get($estilos,width  );
+    border-radius: map-get($estilos, border);
+    padding-top: map-get($estilos,top );
+    padding-bottom: map-get($estilos ,bottom );
+
+   }
+
+   $Parrafo: (
+fuente:Arial,
+tamaño:20px,
+
+   );
+
+   .chapas__p{
+    font-family: map-get($Parrafo, fuente );
+    font-size: map-get($Parrafo, tamaño );
+    position: absolute;
+    left: 300px;
+    bottom: 480px;
+
+   } 
+
+   .hierros__p{
+    font-family: map-get($Parrafo, fuente );
+    font-size: map-get($Parrafo, tamaño );
+    position: absolute;
+  left: 300px;
+  bottom: 270px;
+ 
+   }
+ 
+   .techos__p{
+    font-family: map-get($Parrafo, fuente );
+    font-size: map-get($Parrafo, tamaño );
+    position: absolute;
+    left: 300px;
+    bottom: 100px;
+   
+ 
+   }
+
+   @mixin flex ($eje-principal){ 
+    display: flex;
+    justify-content: $eje-principal;
+    
+}
+
+.formulario{
+    @include flex(space-around);
+    font-family:Arial;
+    color: antiquewhite;
+
+}

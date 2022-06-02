@@ -47,7 +47,7 @@ color: antiquewhite;
 padding-left: 550px;
     padding-top: 200px;
     padding-bottom: 300px;
-    background-image: url(./images/moladora.jpg);
+    background-image: url(../images/moladora.jpg);
 background-position: center center;
 height: 500px;
 background-size: cover;
@@ -88,7 +88,10 @@ border-style:double;
 text-align: justify;
 }*/
 
+.accordionP{
+font-size: 20px;
 
+}
 .imagen1{ 
 /*position: absolute;
 left: 20%;

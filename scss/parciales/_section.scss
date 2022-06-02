@@ -2,11 +2,13 @@
 section{ background-color: $color-principal;
     position: relative;}
     
-      .chapas__img{
+      .chapas{
+      
+      &__img{
           width: 200px;
         border-radius: 100px;
         padding-top: 10px;
-        padding-bottom: 10px;
+        padding-bottom: 10px;}
         &__p {
           font-family:$arial;
           
@@ -28,12 +30,15 @@ section{ background-color: $color-principal;
       }
      
     
-      .hierros__img{
+      .hierros{
+
+
+        &__img{
           width: 200px;
         border-radius: 100px;
         padding-top: 10px;
         padding-bottom: 10px;
-      
+        }
         &__p {
           font-family: $arial;
             font-size: 20px;
@@ -51,16 +56,18 @@ section{ background-color: $color-principal;
       }
     
       &__link:hover { font-size: 20px;}
-      
-      }
-     
     
-      .techos__img{
+      }
+    
+    
+      .techos{
+      
+      &__img{
           width: 200px;
         border-radius: 100px;
         padding-top: 10px;
         padding-bottom: 10px;
-
+      }
         %__p {
           font-family: $arial;
             font-size: 20px;
