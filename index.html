@@ -11,24 +11,29 @@
     <link rel="icon" href="./images/logo.png">
     <link rel="stylesheet" href="./css/style.css"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3d249c729b.js" crossorigin="anonymous"></script>
 </head>
 <body>
  <header >
         <img class="logo" src="./images/logo.png">
         <h1 > Construcciones SyS</h1> 
-  
-    <nav> 
+  <a href="#lateral" class="header-open">
+    <i class="fa-solid fa-bars"></i>
+
+  </a>
+    <nav class="nav" id="lateral"> 
         <ul>
            <li> <a href="./index.html">Inicio</a></li>
            <li> <a href="./html/productos.html">Productos</a></li>
            <li> <a href="./html/trabajos.html">Trabajos</a></li>
            <li> <a href="./html/sobre_nosotros.html">Sobre nosotros</a></li>
-           <li> <a href="./html/contactos.html">Contactos</a> </li>
+           <li> <a href="./html/contactos.html">Contactos</a> </li>        
+           <li> <a href="#">X</i></a></li>
         </ul>
     </nav>
   </header>
 
-  <main class="menudesplegable">
+  <!-- <main class="menudesplegable"> 
 
     <nav class="navbar bg-light fixed-top">
         <div class="container-fluid">
@@ -64,7 +69,7 @@
           </div>
         </div>
       </nav>
-  </main>
+  </main>-->
  
 
 
@@ -123,22 +128,25 @@
 
 
     <section>
-        <div class="chapas">
-            <img class="chapas__img  " src="./images/canaleta_de_chapa.jpeg" alt="canaletas">
+        <div class="chapas shadow-drop-2-center">
+          
+            <img class="chapas__img  shadow-drop-2-center " src="./images/canaleta_de_chapa.jpeg" alt="canaletas">
             <p class="chapas__p "> canaletas de chapa,caños de bajadas,cenefas,babetas,etc.</p>
             <a class="chapas__link" href="trabajos.html">ver mas</a>
-        </div>
-       <div class="hierros">
-           <img class="hierros__img " src="./images/hierros.jpg" alt="hierros">
+          </div>
+    
+       <div class="hierros shadow-drop-2-center">
+           <img class="hierros__img shadow-drop-2-center " src="./images/hierros.jpg" alt="hierros">
            <p class="hierros__p "> todo tipo de herreria,herreria artesanal, rejas, portones, muebles, balcones etc.</p>
            <a class="hierros__link" href="trabajos.html">ver mas</a>
        </div>
-       <div class="techos">
-           <img class="techos__img " src="./images/chapa.jpg" alt="chapas">
+       <div class="techos shadow-drop-2-center">
+           <img class="techos__img shadow-drop-2-center" src="./images/chapa.jpg" alt="chapas">
            <p class="techos__p "> techos, tinglados, cerramientos, etc </p>
            <a class="techos__link " href="trabajos.html">ver mas</a>
        </div>
-    </section
+      </section>
+     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>.
     <script>
@@ -188,9 +196,18 @@
 </div>
     <br><br>
     <div class="contacto">
-    <p>tambien nos podes contactactar al numero:000000000</p>
-    <br>
-    <p>nos encontramos en la ciudad de Corrientes Capital</p>
+    <p>Tambien nos podes contactactar al numero:000000000</p>
+    <p>Nos encontramos en la ciudad de Corrientes Capital</p>
     </div>
+  
+      <div class="icon" >
+      <i class="fa-brands fa-whatsapp"></i>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-solid fa-envelope"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-solid fa-phone"></i>
+      <i class="fa-brands fa-facebook-messenger"></i>
+    </div>
+  
 </footer>
 </html>
