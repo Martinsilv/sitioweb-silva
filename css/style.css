@@ -60,7 +60,7 @@ ul li a:hover {
 
 .fondoparrafo{
   position:relative;
-  left: 11%;
+  left: 10%;
   padding-top: 10px;
   padding-left: 10px;
   background-color: #0b0b30;
@@ -118,15 +118,16 @@ ul li a:hover {
   font-family: Arial, Helvetica, sans-serif;
   color: antiquewhite;
   position: absolute;
-  bottom: 600px;
-  left: 190px;
+  bottom: 450px;
+  left: 100px;
   text-align: justify;
   width: 400px;
 }
 .imagen-principal {
   position: absolute;
-  left: 42%;
-  bottom: 600px;
+  left: 480px;
+ 
+  bottom: 450px;
   border-radius: 30px;
   max-width: 500px;
   max-height: 280px;
@@ -135,8 +136,8 @@ ul li a:hover {
 }
 .imagen-principal2{
 position: absolute;
-left: 180px;
-bottom: 210px;
+left: 80px;
+bottom: 50px;
 object-fit: cover;
 max-width: 400px;
 max-height: 350px;
@@ -146,17 +147,18 @@ border-radius: 30px;
   font-family: Arial, Helvetica, sans-serif;
   color: antiquewhite;
   position: absolute;
-  left: 700px;
-  bottom: 470px;
+  left: 600px;
+  bottom: 350px;
 }
 .servicios{font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   color: antiquewhite;
   position: absolute;
-  bottom: 250px;
-  left: 530px;
+  bottom: 120px;
+  left: 400px;
   display: flex;
   flex-direction: row ; 
+padding: 0%;
 
 }
 aside {
@@ -361,13 +363,14 @@ padding-top: 10px;
 
  @media screen and (max-width:480px) {
 header{
-  height: 500px;
-  width: 100%;
+  height: 400px;
+  width: 100vh;
 }
 header h1 {left: 50%;
   transform: translate(-50%);
   font-size: 40px;
   text-align: center;
+  top: 270px;
 }
 .logo{
   margin-left: 50%;
@@ -406,28 +409,31 @@ ul{font-size: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 5;
+ 
 
 
 }
-  .fondoparrafo{top: 30px;
-
-    width: 100%;
+aside{width: 100vh;}
+  .fondoparrafo{
+    top: 30px;
+    max-width:100%;
     height: 90rem;
     left: 0%;
   }
+
   .presentacion{
-font-size: 30px; 
+font-size: 50px; 
 left:20%;
   
 
   }
-  .parrafo {left: 0px;
-    width: 300px;
-top: 11%;
-font-size: 13px;
+  .parrafo {left: 10%;
+    
+top: 10%;
+font-size: 20px;
 text-align: center;
   }
+ 
   .imagen-principal { 
     width: 300;
     height:  200px;
@@ -451,7 +457,7 @@ text-align:center;
     font-size: 5px;
     flex-direction: column;
      text-align:left;
-     left: 05px;
+     left: 15%;
      bottom: 150px;
   padding: 0%;
   margin: 0%
@@ -460,13 +466,17 @@ text-align:center;
     
 
   .chapas{margin-top:150px ;
+  max-width: 500px;
     margin-left: 0%;
     left: 10px;
     padding-bottom: 200px;
   }
-
+  .chapas__img{
+    
+  }
   .chapas__p{top:250px;
- left: 15px;
+ left: 50%;
+ transform: translate(-50%);
   }
 
   .chapas__link{
@@ -509,7 +519,7 @@ text-align:center;
   .formulario{display: none;}
 
 
-
+  footer {width: 100vh;}
 
 
 
