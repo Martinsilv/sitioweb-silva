@@ -364,7 +364,7 @@ padding-top: 10px;
  @media screen and (max-width:480px) {
 header{
   height: 400px;
-  width: 100vh;
+  width: 100%;
 }
 header h1 {left: 50%;
   transform: translate(-50%);
@@ -413,7 +413,6 @@ ul{font-size: 20px;
 
 
 }
-aside{width: 100vh;}
   .fondoparrafo{
     top: 30px;
     max-width:100%;
@@ -422,15 +421,15 @@ aside{width: 100vh;}
   }
 
   .presentacion{
-font-size: 50px; 
+font-size: 30px; 
 left:20%;
   
 
   }
-  .parrafo {left: 10%;
-    
+  .parrafo {left: 0px;
+    width: 300px;
 top: 10%;
-font-size: 20px;
+font-size: 13px;
 text-align: center;
   }
  
@@ -457,7 +456,7 @@ text-align:center;
     font-size: 5px;
     flex-direction: column;
      text-align:left;
-     left: 15%;
+     left: 05px;
      bottom: 150px;
   padding: 0%;
   margin: 0%
@@ -519,7 +518,7 @@ text-align:center;
   .formulario{display: none;}
 
 
-  footer {width: 100vh;}
+
 
 
 
