@@ -30,9 +30,7 @@ header h1 {
   margin-bottom: 20px;
 }
 
-#lateral{
-  display: none;
-}
+
 ul {
   position: relative;
   list-style: none;
@@ -54,7 +52,10 @@ ul li a:hover {
   background-color: rgba(8, 12, 51, 0.911);
   border-radius: 20px;
 }
-
+.header-open{
+  display: none;
+}
+.xclose{ display: none;}
 
 
 .fondoparrafo{
@@ -375,7 +376,8 @@ header h1 {left: 50%;
 .search{
 display: none;
 }
-.header-open{
+.xclose{ display:block;}
+.header-open{ display: block;
   position: absolute;
   left: 90%;
   top: 10%;
