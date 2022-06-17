@@ -12,27 +12,50 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="icon" href="./images/logo.png">
     <link rel="stylesheet" href="../css/trabajos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3d249c729b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <img  class="logo" src="../images/logo.png">
-        <h1>construccionesSyS</h1>
-        <nav>
+  <header >
+    <img class="logo" src="../images/logo.png">
+    <h1 > Construcciones SyS</h1> 
+<a href="#lateral" class="header-open">
+<i class="fa-solid fa-bars"></i>
+
+</a>
+<nav class="nav" id="lateral"> 
             <ul>
               <li> <a href="../index.html">Inicio</a></li>
               <li> <a href="./productos.html">productos</a></li>
               <li> <a href="./trabajos.html">trabajos</a></li>
               <li> <a href="./sobre_nosotros.html">sobre nosotros</a></li>
               <li> <a href="./contactos.html">contactos</a> </li>
+              <li> <a href="#" class="xclose">X</i></a></li>
             </ul> 
 
         </nav>
     </header>
     <section>
-<div>
+<div class="backgroundtitulo">
 <h2>Galeria de trabajos</h2>
+
+</div>
+<div>
+  <h4 class="textgray"data-aos="fade-right"data-aos-duration="1000">Trabajos de</h4>
+</div>
+<div class="canaletash3" data-aos="fade-left" data-aos-duration="1000">
 <h3 >Canaletas</h3>
 </div>
+<div  class="imgcanaletas">
+<img class="imgcanaletas__1" src="../images/canaletas-1.jpeg" alt="canaleta">
+<img class="imgcanaletas__2" src="../images/canaletas-negro.jpeg"  alt="canaleta negra">
+<img class="imgcanaletas__3" src="../images/canaletas-2.jpeg" alt="canaleta2">
+
+</div>
+
 
 <div class="carrousel1">
     
@@ -64,10 +87,19 @@
 
 </div>
 
-
-<div class="herreriah3">
-    <h3 > herreria</h3>
+<div>
+  <h4 class="textgray"data-aos="fade-right"data-aos-duration="1000" >Trabajos de</h4>
+</div>
+<div class="herreriah3" data-aos="fade-left" data-aos-duration="1000">
+    <h3 > Herreria</h3>
 </div> 
+<div class="imgherreria">
+  <img class="imgherreria__1" src="../images/puerta-reja-2.jpeg"  alt="reja 1">
+  <img class="imgherreria__2" src="../images/rpuerta-reja.jpeg" alt="reja 2">
+  <img class="imgherreria__3" src="../images/puente-de-hierro2.jpeg"  alt="puente">
+
+</div>
+
 <div class="carrousel2">
    
 
@@ -100,10 +132,21 @@
 
 </div>
 
-
-<div class="techosh3">
-    <h3>techados</h3>
+<div>
+  <h4 class="textgray" data-aos="fade-right"data-aos-duration="1000">Trabajos de</h4>
+</div>
+<div class="techosh3" data-aos="fade-left" data-aos-duration="1000">
+    <h3>Techos</h3>
   </div>
+<div class="imgtechos">
+  <img class="imgtechos__1"  src="../images/techos-1.jpeg"  alt="techos1">
+  <img class="imgtechos__2" src="../images/pergola-rojo.jpeg"  alt="techos2">
+
+</div>
+
+
+
+
 <div class="carrousel3">
       
       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
@@ -112,7 +155,7 @@
             <img  src="../images/techos-1.jpeg" class="d-block w-100" alt="techos1">
           </div>
           <div class="carousel-item" data-bs-interval="2000">
-            <img src="../images/pergola-rojo.jpeg" style="width: 500px; height: 500px; " class="d-block w-100" alt="techos2">
+            <img src="../images/pergola-rojo.jpeg" class="d-block w-100" alt="techos2">
           </div>
        
         </div>
@@ -128,53 +171,67 @@
 
 </div>
 </section>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
-    <footer>
-        <h2>contactanos:</h2>
-        <div class="formulario">
-            <div class="formulario__1">
-            <form >
-                <input  type="text"name=nombre placeholder="nombre"/>
-            </form>
-        <br>
-        <form>
-            <input   type="text" name="apellido" placeholder="apellido"/>
-        </form>
-        </div>
-        <br>
-        <div class="formulario__2">
-        <form  >
-            <input type="number"name="telefono" placeholder="telefono"/>
-        </form>
-        <br>
-        <form >
-            <input type="text"name=email placeholder="email">
-        </form>
-        </div>
-        <br>
-        <div class="formulario__3">
-        <form  >
-            <input type="text"name="Provincia" placeholder="provincia"/>
-        </form>
-        <br>
-        <form>
-            <input type="text"name="codigo de area" placeholder="codigo de area"/>
-        </form>
-        </div>
-        
-           
-        <br>
-            <form>
-                <input type="text"name=consulta placeholder="Consulta">
-                <input type="submit"value="enviar">
-            </form>
-        </div>
-            <br><br>
-            <div class="contacto">
-            <p>tambien nos podes contactactar al numero:000000000</p>
-            <br>
-            <p>nos encontramos en la ciudad de Corrientes Capital</p>
-            </div>
-    </footer>
+
+<footer>
+  <h2>Contáctenos:</h2>
+<div class="formulario">
+  <div class="formulario__1">
+  <form >
+      <input  type="text"name=nombre placeholder="nombre"/>
+  </form>
+<br>
+<form>
+  <input   type="text" name="apellido" placeholder="apellido"/>
+</form>
+</div>
+<br>
+<div class="formulario__2">
+<form  >
+  <input type="number"name="telefono" placeholder="telefono"/>
+</form>
+<br>
+<form >
+  <input type="text"name=email placeholder="email">
+</form>
+</div>
+<br>
+<div class="formulario__3">
+<form  >
+  <input type="text"name="Provincia" placeholder="provincia"/>
+</form>
+<br>
+<form>
+  <input type="text"name="codigo de area" placeholder="codigo de area"/>
+</form>
+</div>
+
+ 
+<br>
+  <form>
+      <input type="text"name=consulta placeholder="Consulta">
+      <input type="submit"value="enviar">
+  </form>
+</div>
+  <br><br>
+  <div class="contacto">
+  <p>Nos podes contactactar al numero:000000000</p>
+  <p>Nos ubicamos en la ciudad de Corrientes Capital</p>
+  </div>
+
+    <div class="icon" >
+    <i class="fa-brands fa-whatsapp"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-solid fa-envelope"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-solid fa-phone"></i>
+    <i class="fa-brands fa-facebook-messenger"></i>
+  </div>
+
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
