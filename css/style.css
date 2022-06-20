@@ -46,12 +46,13 @@ ul li a {
   display: block;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 12px 93px;
+  transition: all 0.3s;
 }
 
 ul li a:hover {
-  background-color: rgba(8, 12, 51, 0.911);
-  border-radius: 20px;
-}
+  transform: scale(1.5);
+  color: #F5F6F7;
+ }
 .header-open{
   display: none;
 }
