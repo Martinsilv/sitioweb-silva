@@ -278,14 +278,22 @@ padding-top: 10px;
       }
       #lateral{
         width: 60%;
+      
         }
     
     section h2{
       font-size: 30px;
     }
+    
     section h4{
       font-size: 15px;
       width: 90%;
-      text-align: center;}
+      text-align: center;
+    }
+    
+    
+    
+    
+    
     
     }
