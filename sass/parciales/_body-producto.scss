@@ -1,0 +1,209 @@
+.backgroundtitulo { 
+    height:300px;
+    max-width: 100%;
+      background-image:url(../images/moladora.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  
+  }
+  section h2{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  color: antiquewhite;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 100px;
+  }
+  
+  .buscador{ max-width:100%;
+      }
+      section{background-color:$color-principal;
+        max-width: 100%;
+     }
+      .productos{ padding-left: 20px;
+        padding-bottom: 20px;
+        padding-top:50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+      }
+    
+  .chapa{ 
+   background-color:$color-fondo;
+   max-width: 600px;
+   height: 250px;
+   border-radius: 50px;
+   position: relative;
+   transition: all 150ms;
+  }
+  .chapa:hover{ transform: scale(1.10);}
+  .chapa__img{
+    left: 30px;
+    top: 23px;
+    max-width: 190px;
+     border-style:groove;
+  
+      position: absolute;
+  }
+  .chapa__nombre{ font-family: $arial;
+    font-size: 15px;
+  position: absolute;
+  left:40%;
+  top: 30%;
+  
+    }
+  
+  
+  .chapalisa{  background-color:$color-fondo;
+    width: 600px;
+    height: 250px;
+    border-radius: 50px;;
+   position: relative;
+   transition: all 150ms;
+  }
+  .chapalisa:hover{transform: scale(1.10);
+  }
+  .chapalisa__img{ left: 30px;
+    top: 23px;
+    max-width: 190px;
+     border-style:groove;
+  
+     position:absolute;
+    ;
+      
+  }
+  .chapalisa__nombre{
+  
+      font-family: $arial;
+      font-size: 15px;
+    position:absolute;
+    left:40%;
+    top: 30%;
+  
+  }
+  
+  .tornillo{ background-color:$color-fondo;
+    width: 600px;
+    height: 250px;
+    border-radius: 50px;
+   position: relative;
+   transition: all 150ms;
+  }
+  .tornillo:hover{transform: scale(1.10);}
+  .tornillo__img{  left: 30px;
+    top: 23px;
+   max-width: 190px;
+    border-style:groove;
+    
+  position: absolute;
+  }
+  .tornillo__nombre{
+    font-family:$arial;
+        font-size: 15px;
+    position: absolute;
+    left:40%;
+    top: 30%;
+  }
+  .perfil{background-color:$color-fondo;
+    width: 600px;
+    height: 250px;
+    border-radius: 50px;;
+   position: relative;
+   transition: all 150ms;}
+  
+   .perfil:hover{ transform: scale(1.10);}
+  
+  .perfil__img{left: 30px;
+    top: 23px;
+    width: 190px;
+     border-style:groove;
+      position: absolute
+  }
+  .perfil__nombre{  font-family:$arial;
+      font-size: 15px;
+    position:absolute;
+    left:40%;
+    top: 30%;
+  }
+  
+  .hierro{background-color:$color-fondo;
+    width: 600px;
+    height: 250px;
+    border-radius: 50px;;
+   position: relative;
+   transition: all 150ms;
+  
+  }
+  .hierro:hover{ transform: scale(1.10);}
+  
+  .hierro__img{ left: 30px;
+    top: 23px;
+    width: 189px;
+     border-style:groove;
+      position: absolute }
+      
+  .hierro__nombre {font-family:$arial;
+    font-size: 15px;
+  position: absolute;
+  left:40%;
+  top: 30%;
+      }
+  
+      
+      .caño{ 
+       background-color: $color-fondo;
+       width: 600px;
+       height: 250px;
+       border-radius: 50px;
+       position: relative;
+       transition: all 150ms;
+      }
+      .caño:hover{transform: scale(1.10);}
+      
+      .caño__img{
+        left: 30px;
+        top: 23px;
+        max-width: 250px;
+         border-style:groove;
+      
+          position: absolute;
+      }
+      .caño__nombre{  font-family: $arial;
+        font-size: 15px;
+    position: absolute;
+    left:40%;
+    top: 30%;
+      
+        }
+        .button1{ position: absolute;
+          left: 50%;
+          top: 70%;}
+          .button2{ position: absolute;
+            left: 70%;
+            top: 70%;
+          }
+          .shadow-drop-2-bottom {
+                    animation: shadow-drop-2-bottom 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          }
+  
+  
+  @keyframes shadow-drop-2-bottom {
+    0% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-transform: translateZ(50px) translateY(-12px);
+              transform: translateZ(50px) translateY(-12px);
+      -webkit-box-shadow: 0 12px 20px -12px rgba(0, 0, 0, 0.35);
+              box-shadow: 0 12px 20px -12px rgba(0, 0, 0, 0.35);
+    }
+  }
+  
+  
+  

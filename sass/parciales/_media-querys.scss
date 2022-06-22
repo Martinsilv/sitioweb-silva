@@ -1,0 +1,648 @@
+@media screen and (max-width:1024px) {
+  
+    header h1 {  
+      font-size: 20px;
+      left: 100px; }
+    
+    .logo {
+      width: 6%;
+      left: 20px; }
+    ul {
+      gap: 2rem;
+    left:43%; }
+  
+    ul li {
+      display: inline-block;}  
+    .header-open{
+      display: none;}
+    .xclose{ display: none;}
+    
+    .fondoparrafo{  
+      left: 0%;
+      width:100%;
+    }
+  aside{
+    width: 100%; }
+  
+  .search {
+  display: none; }
+    .presentacion{
+  font-size: 40px; 
+  left:10%; }
+    .parrafo {left:5%; 
+    max-width: 100%;
+  top:15%;
+  font-size: 20px;
+  
+    }
+   
+    .imagen-principal { 
+      width: 40%;
+      height:  400px;
+  top: 10%;
+  left:45%;
+    }
+    .imagen-principal2{display: none;  }
+    .serviciostitulo{
+  left: 30%;
+  bottom: 40%;
+  font-size:30px;
+  text-align:center;    
+    }
+    .servicios{height: 2%;
+     
+      width: 60%;
+      font-size: 20px;
+      flex-direction: column;
+       text-align:left;
+       left: 0%;
+      top: 65%;
+    
+    }
+  .servicios__1{
+    position: absolute;
+    right: 40%;
+  }
+  .servicios__2{position: absolute;
+  left: 85%;}
+  .chapas{
+  margin-left: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  }
+  
+  .hierros{ margin-left: 25px;
+  }
+  
+  .techos{margin-left: 25px;
+  padding-bottom: 20px;
+  }
+  
+  .backgroundtitulo { 
+    background-image: url(../images/moladora.jpg);
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  position: relative;}
+  
+  section h2{position: absolute;
+  right:300px;}
+  section h5 { 
+  position: absolute;
+  left:35%;
+  }
+  
+  section{background-color: #F5F6F7;
+  
+  width: 100%;
+  position: relative;
+  
+  }
+  .buscador{
+    width: 100%;
+    padding-top: 20px;
+  padding-bottom: 10px;
+  position: absolute;
+  } 
+
+    .productos{ padding-left:20%;
+      padding-bottom: 20px;
+      padding-top: 15%;
+  
+  grid-template-columns:100% ;
+  gap: 1em;
+  
+  }
+  
+  section h2{
+    font-size: 40px;
+    text-align: center; 
+   }
+  
+  .titulo{ 
+    font-size: 30px;
+       background-image: url(./images/moladora.jpg);
+       width: 1000px;
+   background-position: center center;
+   background-size: cover;
+   background-attachment: fixed;
+   } 
+   
+   .imagenflex{
+  width: 50%;
+   } 
+  .titulo-contactos{
+    font-size: 40px;
+    width: 40%;
+  }
+  .subtitulo-contactos{width: 90%;}
+  
+  .formulario{display: none;}
+      .icon{justify-content:center;
+      gap: 3rem}
+  
+   }
+  
+  @media screen and (max-width:768px) {
+  
+    header{
+      height: 450px;
+      width: 100%;
+    }
+    header h1 {left: 50%;
+      transform: translate(-50%);
+      font-size: 40px;
+      text-align: center;
+      top: 330px;}
+    .logo{
+      top: 30px;
+      left: 50%;
+     transform: translate(-50%);
+  align-self: center;
+      width: 35%;}
+   
+    .xclose{ display:block;}
+    .header-open{ display: block;
+      position: absolute;
+      left: 90%;
+      top: 10%;
+      font-size: 40px;
+      color: white;}
+
+    #lateral{display: block;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 70%;
+    height: 200vh;
+    position: fixed;
+    top: 0%;
+    left: -100%;
+    z-index: 100;
+    transition: left 1s;}
+
+    #lateral:target{
+      left: 0%; }
+    
+    ul{font-size: 30px;
+      margin-top: 50px;
+      height: 50%;
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      top:0%;
+    }
+    .search{
+    display: none;
+    }   
+      .fondoparrafo{position: relative;
+       
+        top: 30px;
+        max-width: 100%;
+        height: 90rem;
+        left: 0%;
+        max-width:100%;
+      }
+    aside{
+      width: 100%;
+    }
+      .presentacion{align-self: center;
+    font-size: 50px; 
+    left:30%;
+    width: 30%;
+      }
+      .parrafo {left: 25%; 
+    max-height: fit-content;
+      max-width: 100%;
+    top:10%;
+    font-size: 20px;
+      }
+     
+      .imagen-principal { 
+        width: 100%;
+      
+    top: 450px;
+    left:20%;
+    margin: 0%;
+      }
+      .imagen-principal2{
+    display: none;
+      }
+      .serviciostitulo{
+    left: 0%;
+    bottom: 45%;
+    width: 100%;   
+      }
+      .servicios{height: 50%;
+     
+        width: 100%;
+        font-size: 20px;
+        flex-direction: column;
+         text-align:left;
+         left: 0%;
+         bottom: 70px;
+      
+      }
+      .servicios__1{
+  
+        right: 20%;
+        bottom: 85%;
+      }
+      .servicios__2{
+      left: 20%;
+      top: 20%;
+    
+      }  
+      .chapas{margin-top:150px ;
+      max-width: 500px;
+      height: 500px;  
+        left: 15%;
+      }
+      .chapas__img{ position: absolute;
+        right: 23%;
+        width:55%; }
+      .chapas__p{position: absolute;
+        top:300px;
+     left: 50%;
+     transform: translate(-50%); }
+    
+      .chapas__link{
+        bottom: 45px;
+        left: 50%;
+        transform: translate(-50%);
+      }
+    
+      .hierros{
+        max-width: 500px;
+        height: 500px;
+          left: 15%;
+      }
+      .hierros__p{ text-align:center;
+        top:300px;
+     left: 5px;
+      }
+    .hierros__img{  position: absolute;
+      right: 23%;
+      width:55%;
+    }
+      .hierros__link{
+        bottom: 45px;
+        left: 50%;
+        transform: translate(-50%); }
+    
+      .techos{
+        max-width: 500px;
+      height: 500px;
+        left: 15%;
+        }
+      .techos__p{
+        text-align:center;
+        top:300px;
+     left: 0%;
+     width: 100%;
+         }
+    
+        .techos__img{ position: absolute;
+          right: 23%;
+          width:50%;}
+    
+        .techos__link{
+          bottom: 45px;
+          left: 50%;
+          transform: translate(-50%);
+        }     
+  
+  section h2{width:300px;
+    text-align: center;
+    font-size: 40px;
+   }
+  .productos{padding-left:10%;
+  }
+    
+  section{
+    width: 100%;
+  }
+  section h2{
+   font-size: 30px;
+   text-align: center; 
+  }
+  .textgray{
+  width: 100%;
+  left: 0%;
+  text-align: center;}
+  
+  .imgcanaletas{display: none;}
+    .imgherreria{display:none;}
+    .imgtechos{display: none;}
+  
+  .carrousel1{display: block;
+    margin-bottom: 0%;
+    width: 100%;
+}
+    .carrousel2{display: block;
+      width: 100%;
+      margin-bottom: 0%; }
+
+    .carrousel3{display: block;
+      width: 100%;
+      margin-bottom: 20%; }
+  
+  .imagenflex{display: none;}
+  
+  .icon-animation{display: none;}
+  
+        .icon{justify-content:center;
+        gap: 1rem;}
+    
+   }
+  
+    @media screen and (max-width:480px) {
+      header{
+        height: 400px;
+        width: 100%;
+      }
+      header h1 {left: 50%;
+        transform: translate(-50%);
+        font-size: 40px;
+        text-align: center;
+        top: 270px;
+      }
+      .logo{
+        width: 50%;} 
+      .header-open{ 
+        left: 85%;}
+      ul{font-size: 20px;
+        gap: 2rem;
+        top:0%;}
+      #lateral{
+        width: 60%;}
+        .xclose{ display:block;}
+        .header-open{ display: block;
+          position: absolute;
+          left: 85%;
+          top: 10%;
+          font-size: 40px;
+          color: white;
+        }
+        #lateral{display: block;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 70%;
+        height: 200vh;
+        position: fixed;
+        top: 0%;
+        left: -100%;
+        z-index: 100;
+        transition: left 1s; }
+
+        #lateral:target{
+          left: 0%; }
+        
+        ul{font-size: 20px;
+          margin-top: 50px;
+          height: 50%;
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+          top:0%;
+        }
+   .search{
+   display: none; }
+  
+    .fondoparrafo{position: relative;
+      top: 30px;
+      max-width: 100%;
+      height: 90rem;
+      left: 0%;
+      max-width:100%; }
+  aside{
+    width: 100%;} 
+    .presentacion{
+  font-size: 30px; 
+  left:26%;
+  width: 50%;
+    }
+    .parrafo {left: 0px; 
+  max-height: fit-content;
+    max-width: 100%;
+  top:10%;
+  font-size: 15px;
+  
+    }
+   
+    .imagen-principal { 
+      width: 100%;
+      height:  200px;
+  top: 320px;
+  left: 0%;
+  margin: 0%;
+    }
+    .imagen-principal2{
+  display: none;
+  
+    }
+    .serviciostitulo{
+  left: 0%;
+  bottom: 55%;
+  font-size: 30px;
+  width: 100%;
+  text-align:center;    
+    }
+    .servicios{height: 50%;
+     
+      width: 100%;
+      font-size: 20px;
+      flex-direction: column;
+       text-align:left;
+       left: 0%;
+       bottom: 70px;   
+    }
+  
+    .servicios__1{
+      
+      right: 0%;
+      bottom: 90%;
+    }
+    .servicios__2{
+    left: 0%;
+    top: 10%;  
+  }
+  
+    .chapas{margin-top:150px ;
+    max-width: 500px;
+    height: 400px;
+      margin-left: 0%;
+      left: 10px;
+      padding-bottom: 200px;
+      position: relative;
+      padding-right: 0%;  }
+    .chapas__img{ position: absolute;
+      right: 23%;
+      width:55%;  }
+    .chapas__p{position: absolute;
+      top:250px;
+   left: 50%;
+   transform: translate(-50%);  }
+  
+    .chapas__link{
+      bottom: 45px;
+      left: 50%;
+      transform: translate(-50%); }
+  
+    .hierros{
+      max-width: 500px;
+      height: 400px;
+        margin-left: 0%;
+        left: 10px;
+        padding-bottom: 200px;
+        position: relative;}
+    .hierros__p{ text-align:center;
+      top:250px;
+   left: 5px; }
+  .hierros__img{  position: absolute;
+    right: 23%;
+    width:55%;}
+    .hierros__link{
+      bottom: 45px;
+      left: 50%;
+      transform: translate(-50%);}
+  
+    .techos{
+      max-width: 500px;
+    height: 400px;
+      margin-left: 0%;
+      left: 10px;
+      padding-bottom: 200px;
+      position: relative;;}
+    .techos__p{
+      text-align:center;
+      top:250px;
+   left: 0%;
+   width: 100%;
+       }
+  
+      .techos__img{ position: absolute;
+        right: 23%;
+        width:50%;}
+  
+      .techos__link{
+        bottom: 45px;
+        left: 50%;
+        transform: translate(-50%);
+      }
+     
+      .backgroundtitulo{ background-image:url(../images/moladora.jpg);
+        width: 100%;
+      }
+      
+      section h2{width:300px;
+        text-align: center;
+        font-size: 40px;
+      
+      }
+      .productos{
+        padding-top: 150px;
+        padding-left: 0%;
+        width: 100%;
+      
+        grid-template-rows: 1fr;
+        gap: 1em;
+      }
+      .buscador{
+        width: 100%;
+       padding: 0%;
+      }
+      .chapa{
+        max-width:100%;
+        height: 400px;
+      } 
+      .chapa__img{left: 50%;
+        transform: translate(-50%);
+      }
+      .chapa__nombre{left: 50%;
+        transform: translate(-50%);
+        top: 60%;
+        font-size: 18px;
+      }
+      
+      .chapalisa{width: 100%;
+          height: 400px;
+        }
+      .chapalisa__img{left: 50%;
+        transform: translate(-50%);}
+      .chapalisa__nombre{left: 50%;
+        transform: translate(-50%);
+        top: 60%;
+        font-size: 18px;
+        width: 90%;
+        text-align: center;}
+      
+        .tornillo{width: 100%;
+          height: 400px;
+        }
+      .tornillo__img{left: 50%;
+        transform: translate(-50%);}
+      .tornillo__nombre{left: 50%;
+        transform: translate(-50%);
+        top: 60%;
+        font-size: 16px;
+        width: 90%;
+        text-align: center;}
+      
+        .perfil{width: 100%;
+          height: 400px;
+        }
+      .perfil__img{left: 50%;
+        transform: translate(-50%);}
+      .perfil__nombre{left: 50%;
+        transform: translate(-50%);
+        top: 60%;
+        font-size: 16px;
+        width: 90%;
+        text-align: center;}
+      
+        .hierro{width: 100%;
+          height: 400px;
+        }
+      .hierro__img{left: 50%;
+        transform: translate(-50%);}
+      .hierro__nombre{left: 50%;
+        transform: translate(-50%);
+        top: 60%;
+        font-size: 16px;
+        width: 90%;
+        text-align: center;}
+      
+         .caño{width: 100%;
+          height: 400px;
+        } 
+        .caño__img{left: 50%;
+          transform: translate(-50%);
+          
+        }
+      
+        .caño__nombre{left: 50%;
+          transform: translate(-50%);
+          top: 60%;
+          font-size: 16px;
+        width: 90%;
+      text-align: center;}
+      
+          .button1{ 
+            left: 14%;
+            top: 85%;}
+            .button2{
+              left: 53%;
+              top: 85%;
+            }
+
+  .titulo-contactos{
+    font-size: 30px;
+    width: 50%;
+  }
+  .subtitulo-contactos{width: 100%;
+  padding-left: 5%;
+  font-size: 20px;}
+  
+      .icon{justify-content:center;
+      gap: 1rem}
+  
+  }
+  

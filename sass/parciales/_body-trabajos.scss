@@ -1,0 +1,85 @@
+
+.flex-section{
+    background-color: $color-principal;  
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;}
+    
+  
+  
+  section h3{ 
+  display: flex;
+  justify-content: center;
+  width: 100%;
+    padding-bottom: 100px; 
+    padding-top: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    color:$azul;
+   
+  }
+  .textgray{font-size: 25px;
+  color: #9DA3AC;
+  position: absolute;
+  left: 45%;
+  padding-top: 70px;
+  
+  }
+
+   
+    .imgcanaletas{display: flex;
+    width: 30%;
+  gap: 2rem;
+  margin-left: 33px;
+  }
+    .imgcanaletas__1{width: 100%;
+      transition: all 150ms;}
+    .imgcanaletas__1:hover{transform: scale(1.1);}
+  
+    .imgcanaletas__2{width:100%;
+      transition: all 150ms;}
+      .imgcanaletas__2:hover{transform: scale(1.1);}
+  
+    .imgcanaletas__3{width: 100%;
+      transition: all 150ms;}
+      .imgcanaletas__3:hover{transform: scale(1.1);}
+  
+    .imgherreria{display: flex;
+      width: 30%;
+    gap: 2rem;
+  margin-left: 33px;}
+    .imgherreria__1{width: 100%;
+      transition: all 150ms;}
+      .imgherreria__1:hover{transform: scale(1.1);}
+     
+    .imgherreria__2{width:100%;
+      transition: all 150ms;}
+      .imgherreria__2:hover{transform: scale(1.1);}
+  
+    .imgherreria__3{ width: 100%;
+      transition: all 150ms;}
+  .imgherreria__3:hover{transform: scale(1.1);}
+  
+    .imgtechos{display: flex;
+    margin-bottom: 50px;
+      width: 30%;
+    gap: 5rem;
+  }
+  
+    .imgtechos__1{ margin-left: 55%;
+      width: 100%;
+      transition: all 150ms;}
+      .imgtechos__1:hover{transform: scale(1.1);}
+  
+    .imgtechos__2{ width: 100%;
+      transition: all 150ms;}
+    .imgtechos__2:hover{transform: scale(1.1);}
+  
+      .carrousel1{display: none; }
+      .carrousel2{display: none;}
+      .carrousel3{display: none;}
+  
+  
+  
+  

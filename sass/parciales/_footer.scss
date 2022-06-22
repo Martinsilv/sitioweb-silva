@@ -1,0 +1,40 @@
+footer {
+    background-image:$backgroun-azul;
+    padding-left: 30px;
+   
+  }
+  
+  footer h2 {
+    padding-top: 30px;
+    font-family: $arial;
+    color: $letras-blanco;
+  }
+  
+  .formulario { padding-top: 20px;
+  
+    display: flex;
+    justify-content: space-around;
+    font-family: $arial;
+    color: $letras-blanco;
+    
+  }
+  
+  .contacto {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 22px;
+    font-family:$arial;
+    font-size: 13px;
+    color:$letras-blanco;
+    
+  }
+  
+  .icon{  
+    display: flex;
+    justify-content:space-evenly;
+  padding-bottom:20px;
+  padding-top: 10px;
+    font-size: 25px;
+    color: $letras-blanco;
+  }
+  
